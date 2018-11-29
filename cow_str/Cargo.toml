@@ -1,0 +1,6 @@
+[package]
+name = "cow_str"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[dependencies]

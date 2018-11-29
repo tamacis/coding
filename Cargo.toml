@@ -1,0 +1,10 @@
+[package]
+name = "language"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[lib]
+path = "Cargo.rs"
+
+[dependencies]
+rand = "*"
