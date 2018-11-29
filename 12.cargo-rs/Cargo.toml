@@ -1,0 +1,9 @@
+[package]
+name = "cargo-rs"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[dependencies]
+clap = "2" # from crates.io
+rand = { git = "https://github.com/rust-lang-nursery/rand" } # from online repo
+#bar = { path = "../bar" } # from a path in the local filesyste

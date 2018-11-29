@@ -1,0 +1,9 @@
+[package]
+name = "std-misc"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[dependencies]
+num_cpus = "1.*"
+scoped_threadpool = "0.1.*"
+rayon = "1.0"
