@@ -1,0 +1,26 @@
+Public Access Modifier
+    The public access modifier allows full access to all members of the same package and full 
+    access to members of other packages – basically everything.
+
+Protected Access Modifier
+    Protected access allows full access to all members of the same package – exactly like default access.
+    In addition, access is granted to subclasses of another package through inheritance only.
+
+Default Access (aka Package-Private) No-Modifier
+    When no modifier exists in a declaration statement, then the default (aka package-private) access
+    is applied. Default access allows full access to only members of the same package.
+    
+Private Access Modifier
+    The private access modifier only allows access to code inside of the current class. 
+    Packages are irrelevant when it comes to this access modifier.
+
+
+Other Noteworthy Stuff
+    Standard classes (outer) can only have either public or default access,
+    they cannot be marked protected or private. 
+    There is a common misconception that the access  level of a class (outer) somehow 
+    controls the access level of its members. 
+    For example, a default access level class can have a public method;
+    a public subclass will inherit that public method from within the same package. 
+    A class outside of the package can access the method through inheritance by 
+    extending the public subclass or by simply creating an instance of the public subclass.
