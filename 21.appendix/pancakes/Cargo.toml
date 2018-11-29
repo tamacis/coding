@@ -1,0 +1,8 @@
+[package]
+name = "pancakes"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[dependencies]
+hello = { path = "../hello" }
+hello_derive = { path = "../hello/hello-derive" }

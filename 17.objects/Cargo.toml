@@ -1,0 +1,12 @@
+[package]
+name = "objects"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[workspace]
+
+[dependencies]
+rust_gui = { path = "rust_gui/" }
+blog = {path = "blog/"}
+state_types_blog = {path = "state_types_blog/"}
+

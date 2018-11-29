@@ -1,0 +1,6 @@
+{
+    "add" : {
+        "shortcut" : ["a"],
+        "help" : "Adds a person to the entity."
+    }
+}

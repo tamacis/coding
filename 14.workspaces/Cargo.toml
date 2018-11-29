@@ -1,0 +1,11 @@
+[package]
+name = "workspaces"
+version = "0.1.0"
+authors = ["Cswl Coldwind <cswl1337@gmail.com>"]
+
+[workspace]
+
+[dependencies]
+add-one = { path = "add-one" }
+add-two = { path = "add-two" }
+rand = "*"
