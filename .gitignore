@@ -1,0 +1,11 @@
+out
+.idea
+.gradle
+build
+local.properties
+*.iml
+
+.classpath
+.project
+.settings/
+bin/
