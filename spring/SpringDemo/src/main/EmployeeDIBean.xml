@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="addrs" class="com.springdemo.Address" >
+        <property name="city" value="Lal" />
+        <property name="state" value="Bar" />
+        <property name="zipCode" value="01980" />
+    </bean>
+    <bean id="emp1" class="cswl.springdemo.EmployeeDI" >
+        <property name="eid" value="102" />
+        <property name="ename" value="Jennie" />
+        <constructor-arg ref="adrs" />
+    </bean>
+
+
+    <bean id="emp2" class="cswl.springdemo.DI" >
+        <property name="eid" value="103" />
+        <property name="ename" value="John" />
+        <property name="address" ref="addrs" />
+    </bean>
+
+</beans>

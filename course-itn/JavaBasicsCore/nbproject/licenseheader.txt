@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (c) 2018 Cswl Coldwind <cswl1337@gmail.com>
+${licensePrefix}Licensed under the (CC BY-SA 4.0) license
+<#if licenseLast??>
+${licenseLast}
+</#if>
