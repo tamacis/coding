@@ -1,0 +1,20 @@
+
+defmodule Array do
+
+def sum(tup) do
+s = 0
+l = tuple_size(tup)
+
+cond 
+n < l ->
+s = s + elem(tup,n)
+n = n + 1
+true
+n -> s;
+end
+
+end
+
+end
+
+IO.puts Array.sum({1,2,3})
