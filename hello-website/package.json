@@ -1,0 +1,46 @@
+{
+  "name": "hello-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "gulp roll",
+    "serve": "node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2017": "^6.16.0",
+    "eslint": "^3.11.0",
+    "eslint-plugin-react": "^6.7.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-rollup": "^2.5.1",
+    "gulp-sourcemaps": "git+https://github.com/floridoo/gulp-sourcemaps.git#master",
+    "rollup": "^0.36.4",
+    "source-map-support": "^0.4.6",
+    "webpack": "^2.1.0-beta.27"
+  },
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
+}
