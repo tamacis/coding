@@ -1,0 +1,3 @@
+rootProject.name = 'MustDo'
+
+include ':app'
