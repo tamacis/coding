@@ -1,0 +1,21 @@
+     
+module.exports = function (n) {
+const result = [];
+const NumberWords = new Map();
+NumberWords.set(5,'five');
+NumberWords.set(3,'three');
+
+Divisors = NumberWords.keys(); 
+
+if (n <= 0) {
+result.push('error.nonpositive');
+}
+
+for (d of  Divisors ) {
+if ( n % d === 0 ) {
+result.push(`error.${NumberWords.get(d)}`)
+}
+}
+
+return result;
+}

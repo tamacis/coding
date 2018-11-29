@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+.titlebar {
+  height: 55px;
+  width: 100%;
+  margin: 0px;
+}
+
+
+@media only screen and (max-width: 580px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .titlebar {
+    	font-size: .75em;
+    	height: 45px;
+
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .titlebar {
+      font-size: .65em;
+      height: 40px;
+
+    }
+
+}
+
+footer {
+ min-height: 25px;
+ position: absolute;
+ bottom: 10px;
+ left: 0px;
+ right: 0px;
+text-align: center;
+padding: 10px;
+ color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border: solid thin;
+  background: #cef;
+}
+
+
+/* Navigation link styles */
+nav a {
+  padding: 0px 2px;
+  text-decoration: none;
+  margin-right: 2px;
+  display: inline-block;
+  background-color: #ee3;
+  border-radius: 2px;
+
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,17 @@
+<app-user-title></app-user-title>
+
+<!-- <nav>
+  <a routerLink="/user/users" routerLinkActive="active">Users</a>
+  <a routerLink="/user/create" routerLinkActive="active">New User</a>
+</nav>
+ -->
+<nav>
+      <a routerLink="./" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">Manage Users</a>
+      <a routerLink="./users" routerLinkActive="active">Users</a>
+      <a routerLink="./create" routerLinkActive="active">New User</a>
+</nav>
+<div>
+    <router-outlet></router-outlet>
+</div>
+

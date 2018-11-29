@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<app-header>
+
+</app-header>
+
+<div style="text-align:center">
+  <nav>
+    <ul>
+      <li id="nav">
+        <a routerLink="/dashboard">Dashboard</a>
+      </li>
+
+      <li id="nav">
+        <a routerLink="/course">Course</a>
+      </li>
+
+
+      <li id="nav">
+        <a routerLink="/student">Student</a>
+      </li>
+
+      <li id="nav">
+        <a routerLink="/user">User</a>
+      </li>
+
+    </ul>
+  </nav>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<section>
+  <router-outlet></router-outlet>
+</section>

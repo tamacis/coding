@@ -1,0 +1,8 @@
+nav {
+   color : #777;
+   background-color: #cef; 
+}
+
+#nav {
+    display: inline-block;
+}

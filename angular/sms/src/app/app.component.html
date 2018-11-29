@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+<div style="text-align:center">
+  <h1>
+    Welcome to <app-title></app-title>
+  </h1>
+</div>
+<nav>
+<ul>
+	<li id="nav"><a routerLink="/dashboard">Dashboard</a></li>
+	<li id="nav"><a routerLink="/course">Course</a></li>
+	<li id="nav"><a routerLink="/student">Student</a></li>
+	<li id="nav"><a routerLink="/user"  routerLinkActive="active">User</a></li>
+</ul>
+</nav>
+</header>
+<section>
+	<!-- <app-dashboard></app-dashboard> -->
+	<router-outlet></router-outlet>
+</section>
+<footer style="margin-bottom: 47px; background: #59f; color: gold;">School Management System</footer>
+<footer>
+  &copy; stim
+</footer>
+
+

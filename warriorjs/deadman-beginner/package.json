@@ -1,0 +1,14 @@
+{
+  "name": "warriorjs-play",
+  "version": "1.0.0",
+  "description": "Level 4",
+  "main": "Player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zen-observable": "^0.3.0"
+  }
+}
