@@ -1,0 +1,5 @@
+val f: (Unit) -> Unit = { println("Hello") } 
+val g: () -> Unit = { println("Hello") } 
+
+f(Unit); f() 
+g(Unit); g()
