@@ -1,0 +1,19 @@
+  
+function f(x) {
+ try { 
+        if(x == "") throw "empty";
+        if(isNaN(x)) throw "not a number";
+      console.log(   ( x == Number(x)))
+        if(x < 5) throw "too low");
+        if(x > 10) throw "too high";
+    }
+    catch(err) {
+        console.log(err);
+    }
+
+}
+
+f(2);
+f(12);
+f();
+f("");

@@ -1,0 +1,20 @@
+{
+  "name": "async-each-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asyncEachDir.js",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-preset-stage-2": "^6.11.0",
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-register": "^6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
